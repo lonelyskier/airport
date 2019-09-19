@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@Configuration
-@Order(1)
+//@Configuration
+//@Order(1)
 @Slf4j
 public class CustomFilter implements Filter {
 

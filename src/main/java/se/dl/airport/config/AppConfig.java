@@ -16,7 +16,21 @@ public class AppConfig {
 
         registrationBean.setFilter(customURLFilter);
         registrationBean.addUrlPatterns("/greeting/*");
+        registrationBean.addUrlPatterns("/arvid/*");
         registrationBean.setOrder(2); //set precedence
         return registrationBean;
     }
+
+    @Bean
+    public FilterRegistrationBean <CustomURLFilter> filterRegistrationBean22() {
+        FilterRegistrationBean < CustomURLFilter > registrationBean = new FilterRegistrationBean();
+        CustomURLFilter customURLFilter = new CustomURLFilter();
+
+        registrationBean.setFilter(customURLFilter);
+        registrationBean.addUrlPatterns("/hello/*");
+        registrationBean.setOrder(2); //set precedence
+        return registrationBean;
+    }
+
+
 }
