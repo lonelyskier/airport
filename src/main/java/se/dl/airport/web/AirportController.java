@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class FilterExampleController {
+public class AirportController {
 
     @GetMapping
     public String greeting() {
@@ -20,11 +20,6 @@ public class FilterExampleController {
     @RequestMapping(value = "/333")
     public String hello() {
         return "Hello World22222";
-    }
-
-    @RequestMapping(value = "/arvid")
-    public String arvid() {
-        return "Älskar dig Kompi!";
     }
 
     @RequestMapping(value = "/hello")

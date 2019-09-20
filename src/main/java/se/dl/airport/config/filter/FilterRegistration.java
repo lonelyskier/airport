@@ -1,4 +1,4 @@
-package se.dl.airport.config;
+package se.dl.airport.config.filter;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
@@ -7,7 +7,7 @@ import se.dl.airport.config.filter.CustomURLFilter;
 import se.dl.airport.config.filter.SimpleFilter;
 
 @Configuration
-public class AppConfig {
+public class FilterRegistration {
 
     @Bean
     public FilterRegistrationBean <SimpleFilter> filterRegistrationBean() {
@@ -31,6 +31,4 @@ public class AppConfig {
         registrationBean.setOrder(2); //set precedence
         return registrationBean;
     }
-
-
 }

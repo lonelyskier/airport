@@ -12,5 +12,4 @@ public class AirportApplicationTests {
 	@Test
 	public void contextLoads() {
 	}
-
 }
