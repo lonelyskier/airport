@@ -1,10 +1,11 @@
-package se.dl.airport.web;
+package se.dl.airport.web.rest;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/rest")
-@org.springframework.web.bind.annotation.RestController
+@RestController
 public class MyRestController {
 
     @GetMapping(value = "/hello")
