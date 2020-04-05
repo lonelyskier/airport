@@ -8,10 +8,10 @@ import se.dl.airport.config.filter.CustomURLFilter;
 import se.dl.airport.config.filter.SimpleFilter;
 
 @Log4j2
-//@Configuration
+@Configuration
 public class FilterRegistration {
 
-//    @Bean
+    @Bean
     public FilterRegistrationBean <SimpleFilter> registerSimpleFilter() {
         FilterRegistrationBean < SimpleFilter > registrationBean = new FilterRegistrationBean();
         SimpleFilter customURLFilter = new SimpleFilter();
@@ -24,7 +24,7 @@ public class FilterRegistration {
         return registrationBean;
     }
 
-//    @Bean
+    @Bean
     public FilterRegistrationBean <CustomURLFilter> registerCustomURLFilter() {
         FilterRegistrationBean < CustomURLFilter > registrationBean = new FilterRegistrationBean();
         CustomURLFilter customURLFilter = new CustomURLFilter();
