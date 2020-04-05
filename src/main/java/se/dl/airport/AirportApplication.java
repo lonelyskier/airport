@@ -20,9 +20,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 	REST
 	- http://localhost:9000/rest/hello
 
-	COMMIT 3
-	COMMIT 4
-
  */
 
 // För schedulering
