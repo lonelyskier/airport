@@ -21,7 +21,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 	- http://localhost:9000/rest/hello
 
 	COMMIT + MERGE1
-
+	COMMIT + MERGE2
 
  */
 
