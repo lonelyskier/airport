@@ -1,5 +1,5 @@
 package se.dl.airport.jwt;
-
+/*
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -9,11 +9,11 @@ import org.springframework.security.authentication.DisabledException;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.web.bind.annotation.*;
-
-@RestController
-@CrossOrigin
+*/
+//@RestController
+//@CrossOrigin
 public class JwtAuthenticationController {
-
+/*
     @Autowired
     private AuthenticationManager authenticationManager;
 
@@ -45,4 +45,6 @@ public class JwtAuthenticationController {
             throw new Exception("INVALID_CREDENTIALS", e);
         }
     }
+
+ */
 }
